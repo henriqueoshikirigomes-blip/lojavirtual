@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+header{
+    background: red;
+    color: white;
+    padding: 30px;
+}
+main {
+    color: black;
+    padding: 30px;
+}
+
+#produtos{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.produto{
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+img{
+    max-width: 100pc;
+    height: auto;
+}
+#produtos div,
+#produtos img{
+    display: block;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: flex-start;
+}
